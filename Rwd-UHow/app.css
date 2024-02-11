@@ -13,7 +13,7 @@ body {
 
 .section1 {
   background-color: purple;
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   padding: 0 1rem 1rem 1rem;
@@ -231,7 +231,7 @@ main p {
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
-.section5-boxs {
+.section5-boxs { /* removed duplicate class */
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -240,15 +240,15 @@ main p {
   padding-bottom: 1rem;
   border-bottom: 0.1px solid black;
 }
-.section5-boxs .box-header {
+.section5-boxs .box-header, .section6-boxs .box-header{ /* fixed unnecessary same css properties via combining them */
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-.section5 .box-section {
+.section5 .box-section, .section6 .box-section {
   padding: 2rem 0;
 }
-.section5-boxs .box .box-header h3 {
+.section5-boxs .box .box-header h3, .section6-boxs .box .box-header h3 { /* fixed unnecessary same css properties via combining them */
   color: purple;
 }
 .section5-boxs .box .box-header span {
@@ -268,25 +268,10 @@ main p {
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
-.section5-boxs {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
+
 .section6-boxs .box {
   padding-bottom: 1rem;
   border-bottom: 0.1px solid black;
-}
-.section6 .box-section {
-  padding: 2rem 0;
-}
-.section6-boxs .box-header {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-.section6-boxs .box .box-header h3 {
-  color: purple;
 }
 .section6-boxs .box .box-header span {
   font-size: 0.9rem;
@@ -305,20 +290,15 @@ main p {
 .section7 p:nth-child(2) {
   font-size: 0.9rem;
 }
-.section7 span {
-  margin-top: 2rem;
-}
-
-.section7 span p {
+.section7 span, .section7 span p{
   margin-top: 2rem;
 }
 .section7 span p a {
   text-decoration: none;
   color: white;
-  padding: 1rem 1rem;
+  padding: 1rem;
   border-radius: 2rem;
   background-color: #fc6591;
-  color: white;
   font-family: "Roboto";
 }
 .section8 {
@@ -367,20 +347,18 @@ main p {
   display: flex;
   align-items: center;
 }
-footer {
+footer { /* footer tag and ".footer" class combined into one */
   text-align: center;
-  padding: 1rem 1rem;
-}
-.footer {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.footer ul a {
+footer ul a {
   text-decoration: none;
   color: black;
 }
-.footer ul {
+footer ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
