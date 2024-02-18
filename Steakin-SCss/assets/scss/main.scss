@@ -1,0 +1,20 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/reset";
+@import "base/typography";
+
+@import "components/buttons";
+@import "components/carousel";
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/navigation";
+
+@import "pages/home/mainsection";
+@import "pages/OurStory/headerOurStory";
+@import "pages/OurStory/mainsectionOurStory";
+@import "pages/OurChefs/mainsectionOurChefs";
+@import "pages/ShopFullWidth/mainsectionShop";
+@import "pages/Contact/mainsectionContact";

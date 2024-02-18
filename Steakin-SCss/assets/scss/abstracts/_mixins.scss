@@ -1,0 +1,45 @@
+@import "variables";
+
+@mixin button(
+  $paddingy: 0,
+  $paddingx: 0,
+  $border-color: null,
+  $color: null,
+  $background-color: null,
+  $border-radius: null
+) {
+  padding: $paddingy $paddingx;
+  border: 2px solid $border-color;
+  text-decoration: none;
+  cursor: pointer;
+  color: $color;
+  background-color: $background-color;
+  border-radius: $border-radius;
+}
+@mixin gridcol($columns, $gap) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  gap: $gap;
+}
+@mixin gridrow($rows, $gap) {
+  display: grid;
+  grid-template-rows: repeat($rows, 1fr);
+  gap: $gap;
+}
+
+@mixin flex(
+  $flex-directions: row,
+  $justify-content: null,
+  $align-items: null,
+  $gap: null
+) {
+  display: flex;
+  flex-direction: $flex-directions;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  gap: $gap;
+}
+
+@mixin box-shadow($x, $y, $blur, $color) {
+  box-shadow: $x $y $blur $color;
+}

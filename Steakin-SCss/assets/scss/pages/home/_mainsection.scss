@@ -1,0 +1,399 @@
+@import '../../abstracts/mixins';
+@import '../../abstracts/variables';
+
+main {
+  @include flex(column, null, null, 10rem);
+}
+//STYLE OF SECTION1 WHICH IS THE FIRST CHILD OF MAIN
+section1 {
+  @include gridcol(2, 1rem);
+  .section1-left {
+    @include flex(column, center, center);
+    h3 {
+      font-family: $font-Ruthie;
+      color: $color10;
+      font-size: 3rem;
+    }
+    h2 {
+      font-family: $font-AbrilFatface;
+      color: $color4;
+      font-size: 3rem;
+    }
+    p {
+      font-family: $font-Poppins;
+      color: $color5;
+      max-width: 80%;
+      text-align: center;
+    }
+    span {
+      margin-top: 1rem;
+      @include flex(row, center, center, 1rem);
+      a {
+        font-weight: 700;
+        @include button(0.8rem, 2.5rem, $color4, $color4, null, 2rem);
+        // font-size: 1rem;
+        text-transform: uppercase;
+        transition:all ease-out, 1s;
+      }
+      a:hover {
+       
+        @include button(0.8rem, 2.5rem, $color2, $color1, $color2, 2rem);
+        border: none;
+      }
+    }
+  }
+  .section1-right {
+    @include flex(row, center, center, 2rem);
+    &-col1,
+    &-col2 {
+      position: relative;
+      a {
+        span {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          right: 10px;
+          bottom: 10px;
+
+          border: 1px dashed $color2;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+//STYLE OF SECTION2 WHICH IS THE SECOND CHILD OF MAIN
+section2 {
+  background-image: url("../images/bg-parallax6.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  padding: 6.5rem;
+  @include flex(column, center, center, 0rem);
+  .section2-wrapper {
+    padding: 6rem;
+    background-color: $color1;
+    position: relative;
+    @include gridrow(1, 2rem);
+    .span {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      border: 1px dashed $color2;
+    }
+    &-upper {
+      text-align: center;
+      h2 {
+        font-family: $font-Ruthie;
+        color: $color2;
+        font-size: 3rem;
+      }
+      h3 {
+        font-family: $font-AbrilFatface;
+        color: $color4;
+        font-size: 3rem;
+      }
+    }
+    &-bottom {
+      @include gridcol(2, 2rem);
+      &-item {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        gap: 0.4rem;
+        img {
+          width: 6rem;
+          margin-right: 2rem;
+        }
+
+        &-right {
+          @include flex(column, center, center, 1rem);
+          &-upper {
+            border-bottom: 1px dashed $color2;
+            font-family: $font-Poppins;
+            width: 100%;
+            @include flex(row, space-between, center, 0);
+            h4 {
+              font-size: 1.3rem;
+            }
+            span {
+              color: $color2;
+              font-size: 1.2rem;
+              font-weight: 700;
+            }
+          }
+          &-bottom {
+            font-family: $font-Poppins;
+            font-size: 0.85rem;
+            color: $color5;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+//STYLE OF SECTION3 WHICH IS SSTHE THIRD CHILD OF MAIN
+section3 {
+  .section3 {
+    @include flex(column, center, center, 5rem);
+    &-header {
+      text-align: center;
+      max-width: 50%;
+      h2 {
+        font-family: $font-Ruthie;
+        color: $color2;
+        font-size: 3rem;
+      }
+      h3 {
+        font-family: $font-AbrilFatface;
+        color: $color4;
+        font-size: 3rem;
+      }
+      p {
+        color: $color5;
+      }
+    }
+    &-main {
+      @include flex(column, center, center, 2rem);
+      &-nav {
+        ul {
+          @include flex(row, center, center, 2rem);
+          li {
+            a {
+              font-family: $font-Poppins;
+              font-size: 1.2rem;
+              font-weight: 600;
+              color: $color4;
+            }
+            a:hover {
+              transition: ease-out 0.5s;
+              color: $color2;
+              text-decoration: underline;
+            }
+            a:focus {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      &-content {
+        @include box-shadow(0, 1px, 73px, $color5);
+        @include gridcol(2, 0);
+        &-box {
+          min-height: 50vh;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          &-left {
+            position: relative;
+            text-align: center;
+            @include flex(column, center, center, 0);
+
+            .span {
+              position: absolute;
+              top: 10px;
+              left: 10px;
+              right: 10px;
+              bottom: 10px;
+              border: 1.5px dashed $color2;
+            }
+            &-paragraph {
+              span {
+                color: $color2;
+                font-family: $font-Poppins;
+                font-weight: 600;
+                font-size: 1.2rem;
+              }
+              h2 {
+                font-family: $font-Poppins;
+                font-size: 1.4rem;
+              }
+              p {
+                font-family: $font-Poppins;
+                color: $color5;
+                font-size: 1rem;
+                margin: 0 1.5rem;
+              }
+            }
+          }
+        }
+      }
+
+      &-content-box:nth-child(3),
+      &-content-box:nth-child(4) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        direction: rtl; /* reversed horizontal */
+      }
+    }
+    &-footer-button {
+      a {
+        @include button(0.8rem, 4rem, $color10, $color10, null, 3rem);
+        font-family: $font-Poppins;
+        font-weight: 600;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+      }
+      a:hover {
+        transition: ease-out 0.5s;
+        @include button(0.8rem, 4rem, $color10, $color1, $color10, 3rem);
+      }
+    }
+  }
+}
+section4 {
+  position: relative;
+  background-image: url("/Steakin-SCss/assets/images/bg-parallax4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  @include flex(column, center, center, 0rem);
+  .section2-wrapper {
+    padding: 6rem;
+    position: relative;
+    @include gridrow(1, 2rem);
+
+    &-upper {
+      text-align: center;
+      h2 {
+        font-family: $font-Ruthie;
+        color: $color2;
+        font-size: 3rem;
+      }
+      h3 {
+        font-family: $font-AbrilFatface;
+        color: $color1;
+        font-size: 3.5rem;
+      }
+    }
+    &-bottom {
+      @include flex(row, center, center, 5rem);
+      &-content {
+        position: relative;
+        padding: 2.5rem 1rem;
+        @include flex(column, center, center, 1rem);
+        text-align: center;
+        background-color: $color1;
+
+        span {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          right: 10px;
+          bottom: 10px;
+          border: 1px dashed $color2;
+        }
+
+        .stars {
+          ul {
+            @include flex(row, center, center, 0.5rem);
+            i {
+              color: $color11;
+            }
+          }
+        }
+        &-paragraph {
+          p {
+            color: $color5;
+          }
+        }
+        &-image {
+          display: inline-block;
+          padding: 3px;
+          border-radius: 100%;
+          border: 2px solid $color2;
+        }
+        img {
+          width: 2rem;
+          border-radius: 100%;
+        }
+        h2 {
+          color: $color2;
+          font-size: 1rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+section5 {
+  .section5 {
+    @include flex(column, center, center, 4rem);
+
+    &-upper {
+      text-align: center;
+      h3 {
+        font-family: $font-Ruthie;
+        font-size: 3rem;
+        color: $color2;
+      }
+      h2 {
+        font-family: $font-AbrilFatface;
+        font-size: 3rem;
+      }
+    }
+    &-bottom {
+      margin: 0 4rem;
+      font-family: $font-Poppins;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2rem;
+      &-context {
+        ul {
+          padding: 0;
+          font-weight: 600;
+          @include flex(row, null, center, 0.5rem);
+          li:nth-child(2) {
+            color: $color2;
+          }
+        }
+        h2 {
+          font-weight: 700;
+          font-size: 1.5rem;
+        }
+        h2:hover {
+          color: $color2;
+          transition: all ease-in-out 0.5s;
+        }
+        &-image {
+          width: 100%;
+          overflow: hidden;
+          img {
+            display: block;
+            height: auto;
+            width: 100%;
+            transition: all ease-in-out 0.5s;
+          }
+        }
+        p {
+          color: $color5;
+          font-size: 0.9rem;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+        }
+        a {
+          @include button(1rem, 2rem, $color2, $color2, null, 2rem);
+          font-weight: 600;
+          transition: all ease-in-out 0.5s;
+        }
+        a:hover {
+          @include button(1rem, 2rem, $color2, $color1, $color2, 2rem);
+        }
+      }
+      &-context:hover {
+        cursor: pointer;
+
+        img {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+

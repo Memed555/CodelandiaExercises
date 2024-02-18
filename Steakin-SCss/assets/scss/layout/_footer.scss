@@ -1,0 +1,87 @@
+footer {
+  margin-bottom: 2rem;
+  .footer {
+    margin-top: 5rem;
+    background-color: $color4;
+    &-upper {
+      padding: 5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      &-left {
+        text-align: center;
+        @include flex(column, center, null, 2rem);
+        h2 {
+          font-family: $font-Poppins;
+          color: $color1;
+          font-size: 1.3rem;
+        }
+        ul {
+          @include flex(row, center, center, 2rem);
+          padding: 0;
+          li {
+            a {
+              @include button(0.7rem, 0.8rem, null, $color1, $color12, null);
+              border: none;
+              transition: all ease-in-out 0.5s;
+            }
+            a:hover {
+              @include button(0.7rem, 0.8rem, null, $color1, $color2, null);
+              border: none;
+            }
+          }
+        }
+      }
+      &-center {
+        text-align: center;
+        p {
+          @include flex(column, center, center, 2rem);
+          color: $color5;
+          font-size: 0.9rem;
+          margin-top: 2rem;
+        }
+      }
+      &-right {
+        font-family: $font-Poppins;
+        @include flex(column, null, center, 1rem);
+        h2 {
+          color: $color1;
+          font-size: 1.5rem;
+        }
+        &-inputs {
+          @include flex(column, start, start, 1rem);
+          input:nth-child(1) {
+            @include button(1rem, 1rem, none, $color5, $color7, null);
+            border: none;
+            font-size: 0.9rem;
+            text-align: start;
+          }
+          input:nth-child(2) {
+            @include button(0.5rem, 0.5rem, none, $color1, $color8, null);
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: none;
+          }
+        }
+      }
+    }
+    &-bottom {
+      @include flex(column, center, center, 2rem);
+      background-color: $color12;
+      &-upicon {
+        text-align: center;
+        i {
+          color: $color1;
+          margin-bottom: 3rem;
+        }
+      }
+      p {
+        color: $color5;
+        font-family: $font-Poppins;
+        font-size: 0.8rem;
+        span {
+          color: $color2;
+        }
+      }
+    }
+  }
+}

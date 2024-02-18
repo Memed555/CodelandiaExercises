@@ -1,0 +1,1307 @@
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Cuprum&family=Open+Sans:wght@400;600&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Ruthie&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  padding: 0;
+}
+
+footer {
+  margin-bottom: 2rem;
+}
+footer .footer {
+  margin-top: 5rem;
+  background-color: #222222;
+}
+footer .footer-upper {
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer .footer-upper-left {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+footer .footer-upper-left h2 {
+  font-family: "Poppins";
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+footer .footer-upper-left ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0;
+}
+footer .footer-upper-left ul li a {
+  padding: 0.7rem 0.8rem;
+  border: 2px solid;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #1b1b1b;
+  border: none;
+  transition: all ease-in-out 0.5s;
+}
+footer .footer-upper-left ul li a:hover {
+  padding: 0.7rem 0.8rem;
+  border: 2px solid;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bb9356;
+  border: none;
+}
+footer .footer-upper-center {
+  text-align: center;
+}
+footer .footer-upper-center p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: #a5a5ab;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+footer .footer-upper-right {
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+footer .footer-upper-right h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+footer .footer-upper-right-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+}
+footer .footer-upper-right-inputs input:nth-child(1) {
+  padding: 1rem 1rem;
+  border: 2px solid none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #a5a5ab;
+  background-color: #f4f4f4;
+  border: none;
+  font-size: 0.9rem;
+  text-align: start;
+}
+footer .footer-upper-right-inputs input:nth-child(2) {
+  padding: 0.5rem 0.5rem;
+  border: 2px solid none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #444444;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: none;
+}
+footer .footer-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #1b1b1b;
+}
+footer .footer-bottom-upicon {
+  text-align: center;
+}
+footer .footer-bottom-upicon i {
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+footer .footer-bottom p {
+  color: #a5a5ab;
+  font-family: "Poppins";
+  font-size: 0.8rem;
+}
+footer .footer-bottom p span {
+  color: #bb9356;
+}
+
+.nav-main {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.nav-main-header {
+  color: #ffffff;
+  height: 5rem;
+  padding: 0 2rem;
+  position: absolute;
+  top: 1rem;
+  translate: 7.5%;
+  z-index: 1;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.nav-main-header-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0rem;
+}
+.nav-main-header-left img {
+  color: #ffffff;
+}
+.nav-main-header-center {
+  margin-top: 1.5rem;
+}
+.nav-main-header-center ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+  font-size: 1rem;
+}
+.nav-main-header-center ul li {
+  height: 2.4rem;
+}
+.nav-main-header-center ul li a {
+  color: #ffffff;
+}
+.nav-main-header-center ul li ul {
+  background-color: #1b1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0rem;
+  width: 10rem;
+  padding: 1rem;
+}
+.nav-main-header-center ul li ul li {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.nav-main-header-center ul li ul li a {
+  color: #a5a5ab;
+  border-bottom: 1px solid #a5a5ab;
+}
+.nav-main-header-center ul li ul li a:hover {
+  color: #ffffff;
+}
+.nav-main-header-center li {
+  display: block;
+  transition-duration: 1s;
+}
+.nav-main-header-center li:hover {
+  cursor: pointer;
+  transition-duration: 1s;
+}
+.nav-main-header-center ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 1s ease;
+  margin-top: 0.6rem;
+  display: none;
+}
+.nav-main-header-center ul li:hover > ul,
+.nav-main-header-center ul li ul:hover {
+  transition: all 1s ease;
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+.nav-main-header-center ul li ul li {
+  clear: both;
+  width: 100%;
+}
+.nav-main-header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-main-header-right span {
+  text-align: center;
+  padding: 3px 12px;
+  background-color: #bb9356;
+}
+.nav-main-header-right span a {
+  color: #ffffff;
+}
+.nav-main-header-right span:hover {
+  transition: ease-in-out, 0.5s;
+  background-color: #9c7f4d;
+  cursor: pointer;
+}
+.nav-main-header-right-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #ffffff;
+}
+.nav-main-header-right-icons i:hover {
+  transition: ease-in-out, 0.5s;
+  color: #9c7f4d;
+  cursor: pointer;
+}
+.nav-main-carousel-inner-item {
+  position: relative;
+}
+.nav-main-carousel-inner-item img {
+  opacity: 90%;
+  filter: brightness(30%);
+}
+.nav-main-carousel-inner-item-paragraph {
+  position: absolute;
+  display: inline-block;
+  left: 15%;
+  top: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+}
+.nav-main-carousel-inner-item-paragraph h3 {
+  font-family: "Ruthie";
+  color: #9c7f4d;
+  font-size: 3rem;
+}
+.nav-main-carousel-inner-item-paragraph h1 {
+  font-family: "Abril Fatface";
+  color: #ffffff;
+  font-size: 5rem;
+}
+.nav-main-carousel-inner-item-paragraph p {
+  font-family: "Poppins";
+  color: #ffffff;
+  max-width: 70%;
+  text-align: center;
+}
+.nav-main-carousel-inner-item-paragraph span {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-main-carousel-inner-item-paragraph span a {
+  padding: 0.8rem 2.5rem;
+  border: 2px solid #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 2rem;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.nav-main-carousel-inner-item-paragraph span a:hover {
+  transition: ease-in-out, 0.5s;
+  padding: 0.8rem 2.5rem;
+  border: 2px solid;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bb9356;
+  border-radius: 2rem;
+  border: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+section1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+section1 .section1-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section1 .section1-left h3 {
+  font-family: "Ruthie";
+  color: #9c7f4d;
+  font-size: 3rem;
+}
+section1 .section1-left h2 {
+  font-family: "Abril Fatface";
+  color: #222222;
+  font-size: 3rem;
+}
+section1 .section1-left p {
+  font-family: "Poppins";
+  color: #a5a5ab;
+  max-width: 80%;
+  text-align: center;
+}
+section1 .section1-left span {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+section1 .section1-left span a {
+  font-weight: 700;
+  padding: 0.8rem 2.5rem;
+  border: 2px solid #222222;
+  text-decoration: none;
+  cursor: pointer;
+  color: #222222;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  transition: all ease-out, 1s;
+}
+section1 .section1-left span a:hover {
+  padding: 0.8rem 2.5rem;
+  border: 2px solid #bb9356;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bb9356;
+  border-radius: 2rem;
+  border: none;
+}
+section1 .section1-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+section1 .section1-right-col1, section1 .section1-right-col2 {
+  position: relative;
+}
+section1 .section1-right-col1 a span, section1 .section1-right-col2 a span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px dashed #bb9356;
+}
+section1 .section1-right-col1 a img, section1 .section1-right-col2 a img {
+  width: 100%;
+}
+
+section2 {
+  background-image: url("../images/bg-parallax6.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  padding: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+}
+section2 .section2-wrapper {
+  padding: 6rem;
+  background-color: #ffffff;
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  gap: 2rem;
+}
+section2 .section2-wrapper .span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px dashed #bb9356;
+}
+section2 .section2-wrapper-upper {
+  text-align: center;
+}
+section2 .section2-wrapper-upper h2 {
+  font-family: "Ruthie";
+  color: #bb9356;
+  font-size: 3rem;
+}
+section2 .section2-wrapper-upper h3 {
+  font-family: "Abril Fatface";
+  color: #222222;
+  font-size: 3rem;
+}
+section2 .section2-wrapper-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+section2 .section2-wrapper-bottom-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 0.4rem;
+}
+section2 .section2-wrapper-bottom-item img {
+  width: 6rem;
+  margin-right: 2rem;
+}
+section2 .section2-wrapper-bottom-item-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+section2 .section2-wrapper-bottom-item-right-upper {
+  border-bottom: 1px dashed #bb9356;
+  font-family: "Poppins";
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+section2 .section2-wrapper-bottom-item-right-upper h4 {
+  font-size: 1.3rem;
+}
+section2 .section2-wrapper-bottom-item-right-upper span {
+  color: #bb9356;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+section2 .section2-wrapper-bottom-item-right-bottom {
+  font-family: "Poppins";
+  font-size: 0.85rem;
+  color: #a5a5ab;
+  width: 100%;
+}
+
+section3 .section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+section3 .section3-header {
+  text-align: center;
+  max-width: 50%;
+}
+section3 .section3-header h2 {
+  font-family: "Ruthie";
+  color: #bb9356;
+  font-size: 3rem;
+}
+section3 .section3-header h3 {
+  font-family: "Abril Fatface";
+  color: #222222;
+  font-size: 3rem;
+}
+section3 .section3-header p {
+  color: #a5a5ab;
+}
+section3 .section3-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+section3 .section3-main-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+section3 .section3-main-nav ul li a {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222222;
+}
+section3 .section3-main-nav ul li a:hover {
+  transition: ease-out 0.5s;
+  color: #bb9356;
+  text-decoration: underline;
+}
+section3 .section3-main-nav ul li a:focus {
+  text-decoration: underline;
+}
+section3 .section3-main-content {
+  box-shadow: 0 1px 73px #a5a5ab;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+section3 .section3-main-content-box {
+  min-height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section3 .section3-main-content-box-left {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+section3 .section3-main-content-box-left .span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1.5px dashed #bb9356;
+}
+section3 .section3-main-content-box-left-paragraph span {
+  color: #bb9356;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+section3 .section3-main-content-box-left-paragraph h2 {
+  font-family: "Poppins";
+  font-size: 1.4rem;
+}
+section3 .section3-main-content-box-left-paragraph p {
+  font-family: "Poppins";
+  color: #a5a5ab;
+  font-size: 1rem;
+  margin: 0 1.5rem;
+}
+section3 .section3-main-content-box:nth-child(3), section3 .section3-main-content-box:nth-child(4) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  direction: rtl; /* reversed horizontal */
+}
+section3 .section3-footer-button a {
+  padding: 0.8rem 4rem;
+  border: 2px solid #9c7f4d;
+  text-decoration: none;
+  cursor: pointer;
+  color: #9c7f4d;
+  border-radius: 3rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+section3 .section3-footer-button a:hover {
+  transition: ease-out 0.5s;
+  padding: 0.8rem 4rem;
+  border: 2px solid #9c7f4d;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #9c7f4d;
+  border-radius: 3rem;
+}
+
+section4 {
+  position: relative;
+  background-image: url("/Steakin-SCss/assets/images/bg-parallax4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+}
+section4 .section2-wrapper {
+  padding: 6rem;
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  gap: 2rem;
+}
+section4 .section2-wrapper-upper {
+  text-align: center;
+}
+section4 .section2-wrapper-upper h2 {
+  font-family: "Ruthie";
+  color: #bb9356;
+  font-size: 3rem;
+}
+section4 .section2-wrapper-upper h3 {
+  font-family: "Abril Fatface";
+  color: #ffffff;
+  font-size: 3.5rem;
+}
+section4 .section2-wrapper-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+section4 .section2-wrapper-bottom-content {
+  position: relative;
+  padding: 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  background-color: #ffffff;
+}
+section4 .section2-wrapper-bottom-content span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px dashed #bb9356;
+}
+section4 .section2-wrapper-bottom-content .stars ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+section4 .section2-wrapper-bottom-content .stars ul i {
+  color: #f0c949;
+}
+section4 .section2-wrapper-bottom-content-paragraph p {
+  color: #a5a5ab;
+}
+section4 .section2-wrapper-bottom-content-image {
+  display: inline-block;
+  padding: 3px;
+  border-radius: 100%;
+  border: 2px solid #bb9356;
+}
+section4 .section2-wrapper-bottom-content img {
+  width: 2rem;
+  border-radius: 100%;
+}
+section4 .section2-wrapper-bottom-content h2 {
+  color: #bb9356;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+section5 .section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+section5 .section5-upper {
+  text-align: center;
+}
+section5 .section5-upper h3 {
+  font-family: "Ruthie";
+  font-size: 3rem;
+  color: #bb9356;
+}
+section5 .section5-upper h2 {
+  font-family: "Abril Fatface";
+  font-size: 3rem;
+}
+section5 .section5-bottom {
+  margin: 0 4rem;
+  font-family: "Poppins";
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+section5 .section5-bottom-context ul {
+  padding: 0;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+section5 .section5-bottom-context ul li:nth-child(2) {
+  color: #bb9356;
+}
+section5 .section5-bottom-context h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+section5 .section5-bottom-context h2:hover {
+  color: #bb9356;
+  transition: all ease-in-out 0.5s;
+}
+section5 .section5-bottom-context-image {
+  width: 100%;
+  overflow: hidden;
+}
+section5 .section5-bottom-context-image img {
+  display: block;
+  height: auto;
+  width: 100%;
+  transition: all ease-in-out 0.5s;
+}
+section5 .section5-bottom-context p {
+  color: #a5a5ab;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+section5 .section5-bottom-context a {
+  padding: 1rem 2rem;
+  border: 2px solid #bb9356;
+  text-decoration: none;
+  cursor: pointer;
+  color: #bb9356;
+  border-radius: 2rem;
+  font-weight: 600;
+  transition: all ease-in-out 0.5s;
+}
+section5 .section5-bottom-context a:hover {
+  padding: 1rem 2rem;
+  border: 2px solid #bb9356;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bb9356;
+  border-radius: 2rem;
+}
+section5 .section5-bottom-context:hover {
+  cursor: pointer;
+}
+section5 .section5-bottom-context:hover img {
+  transform: scale(1.2);
+}
+
+.nav-main-carousel-inner-item-ourstory {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+}
+.nav-main-carousel-inner-item-ourstory img {
+  filter: brightness(30%);
+}
+.nav-main-carousel-inner-item-paragraph-ourstory {
+  position: absolute;
+  text-align: center;
+}
+.nav-main-carousel-inner-item-paragraph-ourstory h3 {
+  font-family: "Ruthie";
+  color: #9c7f4d;
+  font-size: 3rem;
+}
+.nav-main-carousel-inner-item-paragraph-ourstory h1 {
+  font-family: "Abril Fatface";
+  color: #ffffff;
+  font-size: 5rem;
+}
+.nav-main-carousel-inner-item-paragraph-ourstory ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1rem;
+}
+.nav-main-carousel-inner-item-paragraph-ourstory ul span {
+  color: #ffffff;
+}
+.nav-main-carousel-inner-item-paragraph-ourstory ul li:nth-child(1) a {
+  color: #ffffff;
+}
+.nav-main-carousel-inner-item-paragraph-ourstory ul li:nth-child(1) a:hover {
+  color: #bb9356;
+  transition: all ease-out 0.5s;
+}
+.nav-main-carousel-inner-item-paragraph-ourstory ul li:nth-child(3) a {
+  color: #bb9356;
+}
+
+.section1 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+.section1-signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+.section1-signature span {
+  font-family: "Poppins";
+  font-size: 0.9rem;
+}
+
+.section2 {
+  padding: 0;
+  background-image: url("/Steakin-SCss/assets/images/bg-parallax4.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section2 .ourstory {
+  text-align: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .ourstory svg {
+  width: 4rem;
+}
+.section2 .ourstory h2 {
+  font-size: 3rem;
+  font-family: "Ruthie";
+  color: #ffffff;
+}
+.section2 .ourstory p {
+  color: #bb9356;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.section3-ourstory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 0 8rem;
+  text-align: center;
+}
+.section3-ourstory ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.section3-ourstory h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Abril Fatface";
+}
+.section3-ourstory-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.section3-ourstory-left ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+}
+.section3-ourstory-left ul li::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: #222;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 14px;
+}
+.section3-ourstory-right ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+.section3-ourstory-right ul li::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: #222;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 14px;
+}
+
+.section1-OurChefs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+  padding: 0 5rem;
+  margin-top: 4rem;
+}
+.section1-OurChefs-content {
+  position: relative;
+  text-align: center;
+}
+.section1-OurChefs-content img {
+  border-radius: 0.15rem;
+}
+.section1-OurChefs-content h3 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-family: "Poppins";
+}
+.section1-OurChefs-content h3:hover {
+  color: #bb9356;
+  cursor: pointer;
+}
+.section1-OurChefs-content p {
+  font-family: "Poppins";
+  font-size: 0.9rem;
+}
+.section1-OurChefs-content .section1-OurChefs-social {
+  position: absolute;
+  top: 7rem;
+  left: 4rem;
+  display: none;
+}
+.section1-OurChefs-content .section1-OurChefs-social ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.section1-OurChefs-content .section1-OurChefs-social ul li a i {
+  padding: 0.7rem 0.8rem;
+  border: 2px solid;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bb9356;
+  border: none;
+}
+.section1-OurChefs-content:hover {
+  transition: all ease-in-out 1s;
+}
+.section1-OurChefs-content:hover img {
+  filter: brightness(30%);
+}
+.section1-OurChefs-content:hover .section1-OurChefs-social {
+  display: block;
+}
+
+.OurChefs2 {
+  background-image: url("/Steakin-SCss/assets/images/bg-parallax2.jpg");
+}
+
+.OurChefs5 p {
+  color: #a5a5ab;
+  text-align: center;
+  padding: 0 15rem;
+}
+.OurChefs5 .section5-progressbars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+  padding: 0 10rem;
+}
+.OurChefs5 .section5-progressbars .bar-parametres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: none;
+}
+.OurChefs5 .section5-progressbars .bar-parametres h2 {
+  font-size: 1rem;
+}
+.OurChefs5 .section5-progressbars .bar {
+  width: 100%;
+  height: 0.5rem;
+  background-color: #222222;
+  border-radius: 0.5rem;
+  border: 2px solid #222222;
+}
+.OurChefs5 .section5-progressbars .progressbar1 {
+  width: 95%;
+  height: 0.25rem;
+  background-color: #bb9356;
+}
+.OurChefs5 .section5-progressbars .progressbar2 {
+  width: 90%;
+  height: 0.25rem;
+  background-color: #bb9356;
+}
+.OurChefs5 .section5-progressbars .progressbar3 {
+  width: 80%;
+  height: 0.25rem;
+  background-color: #bb9356;
+}
+.OurChefs5 .section5-progressbars .progressbar4 {
+  width: 75%;
+  height: 0.25rem;
+  background-color: #bb9356;
+}
+
+.section1-Shop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 2rem 5rem;
+}
+.section1-Shop-content {
+  text-align: center;
+}
+.section1-Shop-content img {
+  display: block;
+  width: 100%;
+}
+.section1-Shop-content h3 {
+  font-size: 1.1rem;
+  font-family: "Poppins";
+  margin-top: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.section1-Shop-content h3:hover {
+  color: #bb9356;
+  transition: all ease-in-out 0.5s;
+}
+.section1-Shop-content p {
+  font-size: 1rem;
+  font-family: "Poppins";
+  color: #bb9356;
+  font-weight: 500;
+}
+
+.contact {
+  margin-top: 7rem;
+  padding: 1rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.contact-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.contact-top-info p {
+  color: #a5a5ab;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  margin-right: 2.2rem;
+}
+.contact-top-info-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2;
+  gap: 3rem;
+}
+.contact-top-info-sections-section h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.contact-top-info-sections-section h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.contact-top-info-sections-section h3 a {
+  color: #bb9356;
+}
+.contact-top-info-sections-section ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5rem;
+}
+.contact-top-info-sections-section ul li {
+  margin-top: 1rem;
+}
+.contact-top-info-sections-section ul li a {
+  transition: all ease-in-out 0.5s;
+  padding: 0.7rem 1rem;
+  border: 2px solid;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #222222;
+  border: none;
+}
+.contact-top-info-sections-section ul li a i {
+  color: #ffffff;
+}
+.contact-top-info-sections-section ul li a:hover {
+  padding: 0.7rem 1rem;
+  border: 2px solid;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #bb9356;
+  border: none;
+}
+.contact-top-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+  width: 100%;
+}
+.contact-top-inputs-four {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+.contact-top-inputs-four input {
+  height: 3rem;
+  padding: 1rem;
+  border: 2px solid #eeeeee;
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  color: #bb9356;
+}
+.contact-top-inputs-four input::-moz-placeholder {
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  color: #bb9356;
+}
+.contact-top-inputs-four input::placeholder {
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  color: #bb9356;
+}
+.contact-top-inputs-four input:focus {
+  outline: none;
+  border: 2px solid #9c7f4d;
+}
+.contact-top-inputs span {
+  width: 100%;
+}
+.contact-top-inputs span textarea {
+  width: 100%;
+  padding: 1rem 2rem 0 2rem;
+  border: 2px solid #eeeeee;
+  font-size: 0.8rem;
+  color: #bb9356;
+}
+.contact-top-inputs span textarea:focus {
+  outline: none;
+  border: 2px solid #9c7f4d;
+}
+.contact-top-inputs button {
+  padding: 1rem 2rem;
+  border: 2px solid;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #222222;
+  border-radius: 0.2rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  transition: all ease-out 1s;
+  width: 100%;
+  border: none;
+}
+.contact-top-inputs button:hover {
+  padding: 1rem 2rem;
+  border: 2px solid;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bb9356;
+  border-radius: 0.2rem;
+  border: none;
+}/*# sourceMappingURL=main.css.map */

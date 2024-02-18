@@ -1,0 +1,86 @@
+@import "../../abstracts/mixins";
+@import "../../abstracts/mixins";
+
+.section1 {
+  margin-top: 2rem;
+  @include flex(column, center, center, 1rem);
+  text-align: center;
+
+  &-signature {
+    @include flex(column, center, center, 0);
+    span {
+      font-family: $font-Poppins;
+      font-size: 0.9rem;
+    }
+  }
+}
+.section2 {
+  padding: 0;
+  background-image: url("/Steakin-SCss/assets/images/bg-parallax4.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  .ourstory {
+    text-align: center;
+    background-color: transparent;
+    @include flex(column, center, center, null);
+    svg {
+      width: 4rem;
+    }
+    h2 {
+      font-size: 3rem;
+      font-family: $font-Ruthie;
+      color: $color1;
+    }
+    p {
+      color: $color2;
+      font-size: 1rem;
+      font-style: italic;
+    }
+  }
+}
+.section3-ourstory {
+  @include flex(column, center, center, 5rem);
+  margin: 0 8rem;
+  text-align: center;
+  ul {
+    @include flex(row, center, center, 1.5rem);
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: $font-AbrilFatface;
+  }
+  &-content {
+    @include flex(row, center, center, 2rem);
+  }
+  &-left {
+    ul {
+      @include flex(column, center, end, 1rem);
+      li::after {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 6px;
+        background-color: #222;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 14px;
+      }
+    }
+  }
+  &-right {
+    ul {
+      @include flex(column, center, start, 1rem);
+      li::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 6px;
+        background-color: #222;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 14px;
+      }
+    }
+  }
+}

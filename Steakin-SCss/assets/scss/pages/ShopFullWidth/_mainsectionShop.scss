@@ -1,0 +1,32 @@
+@import "../../abstracts/variables";
+@import "../../abstracts/mixins";
+
+.section1-Shop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 2rem 5rem;
+  &-content {
+    text-align: center;
+    img{
+      display: block;
+      width: 100%;
+    }
+    h3{
+      font-size: 1.1rem;
+      font-family: $font-Poppins;
+      margin-top: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    h3:hover{
+      color: $color2;
+      transition: all ease-in-out .5s;
+    }
+    p{
+      font-size: 1rem;
+      font-family: $font-Poppins;
+      color: $color2;
+      font-weight: 500;
+    }
+  }
+}
