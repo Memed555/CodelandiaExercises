@@ -84,25 +84,21 @@
       border-radius: 0.5rem;
       border: 2px solid $color4;
     }
-    .progressbar1 {
-      width: 95%;
+    .progressbar1, .progressbar2, .progressbar3, .progressbar4 {
       height: 0.25rem;
       background-color: $color2;
+    }
+    .progressbar1 {
+      width: 95%;
     }
     .progressbar2 {
       width: 90%;
-      height: 0.25rem;
-      background-color: $color2;
     }
     .progressbar3 {
       width: 80%;
-      height: 0.25rem;
-      background-color: $color2;
     }
     .progressbar4 {
       width: 75%;
-      height: 0.25rem;
-      background-color: $color2;
     }
   }
 }
